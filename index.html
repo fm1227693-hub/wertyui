@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container m-auto mr-20">
 
-            <div class="container1">
+            <div class="container1 flex justify-between items-center pt-6 pb-6 pl-20 pr-20 ">
                 <div class="head_left">
                     <img src="img/Logo (2).svg" alt="">
                 </div>
-                <div class="head_right">
+                <div class="head_right flex gap-8 ">
                     <div class="left_1">
                         <img src="img/Vector (2).svg" alt="">
                         <p>Wishlist</p>
@@ -29,228 +30,225 @@
                     </div>
                 </div>
             </div>
-            <div class="container2">
-                <div class="con0">
-                    <h4>Find and book unforgettable <br> travel experiences</h4>
-                    <p>Discover amazing tours, activities, and attractions around the Uzbekistan</p>
+            <div class="container2 flex justify-center items-center w-full h-175 flex-col ">
+                <div class="con0 font-bold text-6xl ">
+                    <h4 class="font-bold text-6xl text-white text-center leading-18 ">Find and book unforgettable <br> travel experiences</h4>
+                    <p class="flex justify-center font-semibold text-base leading-6 tracking-tighter text-center text-white">Discover amazing tours, activities, and attractions around the Uzbekistan</p>
                 </div>
-                <div class="con">
-                    <input placeholder="Find places for travelling" type="Find places for travelling">
-                    <button>Search</button>
+                <div class="con flex items-center justify-center">
+                    <input class="w-125 pl-3 pr-3 pt-6 pb-6 rounded-5 bg-white rounded-3xl" placeholder="Find places for travelling" type="Find places for travelling">
+                    <button class=" pl-2 pr-2 pt-6 pb-6  bg-blue-600  ">Search</button>
                 </div>
             </div>
         </div>
         </head>
 
-        <main class="main">
-            <div class="container8">
-
-            
-            
+        <main class="main mb-10 mt-16 flex justify-center">
+            <div class="container8 w-425 ml--25">
             <section class="sec1">
                 <div class="container">
                     <div class="sec_content1">
-                        <ul class="menu1">
-                            <li>
+                        <ul class="menu1 grid grid-cols-4 gap-5 ml-20 mr-10  ">
+                            <li class="rounded-6 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (1).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (1).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-4 pt-4 pb-4 w-69">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-gray-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Samarkand Cultural Heritage Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Samarkand Cultural Heritage Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>200,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">200,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (2).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (2).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Bukhara Old City Experience Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Bukhara Old City Experience Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (3).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (3).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Khiva Fortress & Ancient Streets Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Khiva Fortress & Ancient Streets Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>500,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">500,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (4).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (4).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Uzbekistan’s capital Modern Tashkent City Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Uzbekistan’s capital Modern Tashkent City Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (5).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (5).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Fergana Valley Craft & Culture Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Fergana Valley Craft & Culture Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (6).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (6).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Zaamin Mountains & Nature Escape</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Zaamin Mountains & Nature Escape</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>400,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">400,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (7).svg" alt="">
-                                    <p>yurakcha</p>
+                                    <img class="rounded-5" src="img/Image (7).svg" alt="">
+                                    <p class="absolute right-3 top-3">yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Navoi Desert & Ancient Petroglyphs Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Navoi Desert & Ancient Petroglyphs Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>400,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">400,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
-                            <li>
+                            </li class="rounded-5 relative">
+                            <li class="rounded-5 relative">
                                 <div class="sec1_left">
-                                    <img src="img/Image (8).svg" alt="">
+                                    <img class="rounded-5" src="img/Image (8).svg" alt="">
                                     <p>yurakcha</p>
                                 </div>
-                                <div class="sec1_right">
-                                    <div class="right_left">
+                                <div class="sec1_right p-1 pt-4 pb-4">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Shahrisabz & Amir Temur Heritage Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Shahrisabz & Amir Temur Heritage Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>200,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">200,000 UZS</span>
                                     </div>
                                 </div>
-                            </li>
+                            </li class="rounded-5 relative">
 
                         </ul>
                     </div>
@@ -259,16 +257,16 @@
 
 
             <section class="se2">
-                <div class="alo">
-                    <h2>Tours by cities</h2>
+                <div class="alo mt-8 ml-30">
+                    <h2 class="font-bold text-2xl text-8 tracking-tighter text-center text-white">Tours by cities</h2>
 
-                    <p>Popular destinations for tourists</p>
+                    <p class="font-medium text-sm text-5 tracking-tighter text-center text-white">Popular destinations for tourists</p>
                 </div>
                 <section class="sec2">
                     <div class="sec_content2">
-                        <ul class="menu2">
+                        <ul class="menu2 grid grid-cols-4 gap-5 mt-8 ml-20 mr-20 ">
                             <li>
-                                <div class="bir">
+                                <div class="bir flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Bukhara</h2>
@@ -280,7 +278,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="ikki">
+                                <div class="ikki  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Samarkand</h2>
@@ -291,7 +289,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="uch">
+                                <div class="uch  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Khorezm</h2>
@@ -302,7 +300,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="tort">
+                                <div class="tort  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Tashkent</h2>
@@ -313,7 +311,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="besh">
+                                <div class="besh  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Shahrisabz</h2>
@@ -324,7 +322,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="olti">
+                                <div class="olti  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Termez</h2>
@@ -335,7 +333,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="yetti">
+                                <div class="yetti  flex justify-center items-center w-full h-55 rounded-3xl flex-col">
 
                                     <div class="left1">
                                         <h2>Zaamin</h2>
@@ -354,29 +352,29 @@
             <section class="se3">
                 <div class="container">
                     <div class="sec_content1">
-                        <ul class="menu1">
+                        <ul class="menu1 grid grid-cols-4 gap-5 ml-20 mr-10  mt-10">
                             <li>
                                 <div class="sec1_left">
                                     <img src="img/Image (1).svg" alt="">
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Samarkand Cultural Heritage Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Samarkand Cultural Heritage Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>200,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">200,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -386,22 +384,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Bukhara Old City Experience Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Bukhara Old City Experience Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -411,22 +409,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Khiva Fortress & Ancient Streets Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Khiva Fortress & Ancient Streets Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>500,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">500,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -436,22 +434,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Uzbekistan’s capital Modern Tashkent City Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Uzbekistan’s capital Modern Tashkent City Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -461,22 +459,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Fergana Valley Craft & Culture Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Fergana Valley Craft & Culture Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>300,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">300,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -486,22 +484,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Zaamin Mountains & Nature Escape</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Zaamin Mountains & Nature Escape</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>400,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">400,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -511,22 +509,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Navoi Desert & Ancient Petroglyphs Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Navoi Desert & Ancient Petroglyphs Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>400,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">400,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -536,22 +534,22 @@
                                     <p>yurakcha</p>
                                 </div>
                                 <div class="sec1_right">
-                                    <div class="right_left">
+                                    <div class="right_left flex justify-between">
                                         <div class="left">
-                                            <p>2 Days / 1 Night</p>
+                                            <p class="font-semibold text-sm tracking-tighter text-blue-800 ">2 Days / 1 Night</p>
                                         </div>
-                                        <div class="right">
+                                        <div class="right flex gap-1">
                                             <span>4.8</span>
                                             <img src="img/Vector (4).svg" alt="">
                                             <p>340</p>
                                         </div>
                                     </div>
                                     <div class="right_center">
-                                        <h2>Shahrisabz & Amir Temur Heritage Tour</h2>
+                                        <h2 class="font-semibold text-lg text-7 tracking-tighter text-blue-800">Shahrisabz & Amir Temur Heritage Tour</h2>
                                     </div>
                                     <div class="right_right">
-                                        <p>From</p>
-                                        <span>200,000 UZS</span>
+                                        <p class="font-medium text-xs text-5xl tracking-tighter text-gray-600">From</p>
+                                        <span class="font-bold text-lg text-7 tracking-tighter text-blue-700">200,000 UZS</span>
                                     </div>
                                 </div>
                             </li>
@@ -563,29 +561,29 @@
             </div>
         </main>
 
-        <footer class="footer">
-            <div class="container3">
+        <footer class="footer bg-blue-950">
+            <div class="container3 ml-20 mr-20 pt-10 pb-10 pl-7 pr-7">
 
-                <div class="foot_left">
+                <div class="foot_left flex justify-between">
                     <div class="left9">
                         <img src="img/Logo (3).svg" alt="">
                     </div>
                     <div class="right9">
-                        <p>+998 91 001-00-00</p>
+                        <p class="font-semibold text-lg leading-7 tracking-tighter text-white">+998 91 001-00-00</p>
                     </div>
                 </div>
-                <div class="foot_right">
-                    <div class="left10">
+                <div class="foot_right flex justify-between mt-5">
+                    <div class="left10 flex justify-center items-center gap-2">
                         <div class="a10_lef">
-                            <p>© 2025 - Made with</p>
+                            <p class="font-normal text-sm tracking-tighter text-white">© 2025 - Made with</p>
                         </div>
                         <div class="a10_lef">
                             <img src="img/Vector (5).svg" alt="">
-                            <span>in Tashkent</span>
+                            <span class="font-normal text-sm tracking-tighter text-white">in Tashkent</span>
                         </div>
                     </div>
                     <div class="right10">
-                        <ul class="r10">
+                        <ul class="r10 flex justify-between items-center justify-center list-none">
                             <li>
                                 <img src="img/Vector (6).svg" alt="">
                             </li>
